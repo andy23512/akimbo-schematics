@@ -1,9 +1,4 @@
-import {
-  Rule,
-  Tree,
-  SchematicContext,
-  SchematicsException
-} from '@angular-devkit/schematics';
+import { Rule, Tree, SchematicContext } from '@angular-devkit/schematics';
 import { getWorkspace } from '@schematics/angular/utility/config';
 import {
   getProjectFromWorkspace,
