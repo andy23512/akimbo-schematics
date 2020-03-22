@@ -21,6 +21,7 @@
     "@angular-devkit/core": "^9.0.7",
     "@angular-devkit/schematics": "^9.0.7",
     "@angular/cdk": "^9.1.3",
+    "@phenomnomnominal/tsquery": "^4.0.0",
     "@schematics/angular": "^9.0.7",
     "typescript": "~3.7.4"
   },
