@@ -1,9 +1,13 @@
 {
   "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
   "schematics": {
-    "akimbo-schematics": {
-      "description": "A blank schematic.",
-      "factory": "./akimbo-schematics/index#akimboSchematics"
+    "ng-add": {
+      "description": "Adds Akimbo-Cli modification to the application",
+      "factory": "./ng-add/index",
+      "schema": "./ng-add/schema.json",
+      "aliases": [
+        "install"
+      ]
     }
   }
 }
