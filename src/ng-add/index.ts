@@ -90,7 +90,7 @@ export default function(options: Schema): Rule {
     const importStr = `\n\nexport function getCsrf(http: HttpClient) {
   return () =>
     http
-      .get('/api/get_csrf')
+      .get('/api/csrf')
       .toPromise();
 }`;
 

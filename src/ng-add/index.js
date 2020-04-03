@@ -44,7 +44,7 @@ function default_1(options) {
         const importStr = `\n\nexport function getCsrf(http: HttpClient) {
   return () =>
     http
-      .get('/api/get_csrf')
+      .get('/api/csrf')
       .toPromise();
 }`;
         // 在最後一個 ImportDeclaration 結束的位置插入程式碼
