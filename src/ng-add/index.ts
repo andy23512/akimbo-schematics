@@ -88,10 +88,7 @@ export default function(options: Schema): Rule {
 
     // 準備好要插入的程式碼
     const importStr = `\n\nexport function getCsrf(http: HttpClient) {
-  return () =>
-    http
-      .get('/api/csrf')
-      .toPromise();
+  return () => http.get('/api/csrf').toPromise();
 }`;
 
     // 在最後一個 ImportDeclaration 結束的位置插入程式碼
